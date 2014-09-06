@@ -1,0 +1,27 @@
+<Alloy>
+	<Collection src="notes"/>
+	<NavigationWindow platform="ios" id="navGroupWin">
+		<Window id="mainWindow" title="Test Notes">
+			<TableView dataTransform="doTransform" dataCollection="notes" id="noteTable">
+				<SearchBar id="searchBar"/>
+				<TableViewRow id="row">
+					<Button onClick="erase" id="erase"/>
+					<Label id="date" text="{date_modified}"/>
+					<Label id="note"/>
+					<Button id="edit" onClick="edit"/>
+				</TableViewRow>
+			</TableView>
+		</Window>
+	</NavigationWindow>
+	<Window platform="android" id="aWin">
+		<TableView dataTransform="doTransform" dataCollection="notes" id="noteTable">
+			<SearchBar id="searchBar"/>
+			<TableViewRow id="row">
+				<Button onClick="erase" id="erase"/>
+				<Label id="date" text="{date_modified}"/>
+				<Label id="note"/>
+				<Button id="edit" onClick="edit"/>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

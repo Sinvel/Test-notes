@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="createWin" title="Create note">
+		<TextArea id="textArea"/>
+	</Window>
+</Alloy>

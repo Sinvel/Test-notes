@@ -1,0 +1,4 @@
+"#textArea" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}

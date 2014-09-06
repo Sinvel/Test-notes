@@ -1,0 +1,74 @@
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+
+"Label[platform=android]": {
+	color: "white"
+}
+
+"#noteTable[platform=ios]": {
+	filterAtribute: "my_filter",
+} 
+
+"#row": {
+	title: "{note}",
+} 
+
+"#row[platform=ios]": {
+	title: "{note}",
+	color: "white",
+	selectionStyle: "none"
+} 
+
+"#date": {
+	left: 40,
+	color: "gray"
+} 
+
+"#note": {
+	text: "{note}",
+	left: 100,
+	right: 30,
+} 
+
+"#edit": {
+	title: "",
+	titleid: "{note}",
+	right: 5,
+	width: 20,
+	height: 20,
+} 
+
+"#edit[platform=android]": {
+	backgroundImage: "/ic_action_edit.png"
+} 
+
+"#edit[platform=ios]": {
+	backgroundImage: "/ic_action_editb.png"
+} 
+
+"#erase": {
+	title: "",
+	titleid: "{note}",
+	width: 35,
+	height: 35,
+	left: 0
+} 
+
+"#erase[platform=android]": {
+	backgroundImage: "/ic_action_cancel.png"
+} 
+
+"#erase[platform=ios]": {
+	backgroundImage: "/ic_action_cancelb.png"
+} 
+
+"#date": {
+	left: 40,
+	color: "gray",
+	width: 60,
+	font: {
+		fontSize: 10
+	}
+}
